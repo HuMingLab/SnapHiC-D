@@ -4,17 +4,17 @@
 ###                            User Variables                            ###
 ############################################################################
 
-SnapHiC_D_dir="/home/leeh7/snapHiC-diff/python"
-group_A_dir="/home/leeh7/RWR/ODC_RWR/ODC_rwr_chr3/"
-group_B_dir="/home/leeh7/RWR/MG_final_RWR/MG_rwr_chr3/"
-file_list_dir="/home/leeh7/snapHiC-diff/file_lists/ODC_MG/OM_chr3_final.txt"
-out_dir="/home/leeh7/snapHiC-diff/python/output"
+SnapHiC_D_dir="/directory/to/SnapHiC-D/"
+group_A_dir="/directory/to/rwr/files/"
+group_B_dir="directory/to/rwr/files/"
+file_list_dir="directory/to/file/list/file_list_name_.txt"
+out_dir="/directory/to/output"
 chr="chr3"
 genome="hg19"
 num_CPUs=5
 bin_size=10000
 fdr_threshold=0.1
-max_gap=6
+max_gap=101
 min_gap=2
 
 
@@ -29,7 +29,6 @@ if [ ! -d "${out_dir}/tempfile" ]; then
 fi
 
 python ${SnapHiC_D_dir}/snapHiC_diff.py -s $SnapHiC_D_dir -i $group_A_dir -j $group_B_dir -a $file_list_dir -o $out_dir -c $chr -g $genome -n $num_CPUs --binsize $bin_size --fdr_threshold $fdr_threshold --maxi_gap $max_gap --mini_gap $min_gap
-#python test_pars.py -i $group_A_dir -j $group_B_dir -a $file_list_dir -o $out_dir -c $chr -n $num_CPUs --binsize $bin_size --fdr_threshold $fdr_threshold --maxi_gap $max_gap --mini_gap $min_gap
 
 
 if [ "$(ls -A ${out_dir}/tempfile)" ]; then
