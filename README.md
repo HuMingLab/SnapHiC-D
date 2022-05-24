@@ -20,16 +20,16 @@ SnapHiC-D was built using following Python packages.
 
 ### Running SnapHiC-D
 
-The shellscript is included in the github page. The required inputs variables are:
+The shellscript is included in this github page. The required inputs variables are:
 
 1. SnapHiC_D_dir : The directory of SnapHiC-D
 2. group_A_dir : The directory of files for group A 
 3. group_B_dir : The directory of files for group B
-4. file_list_dir : The directory of file containing file name and its group information (i.e. A or B). One may use print_file_group_name.R code to print this file 
+4. file_list_dir : The directory of file containing file name and its group information (i.e. A or B) with the 2 column header of "name group". One may use print_file_group_name.R code to print this file. The example of a file list is "OM_chr3_final.txt".
 5. out_dir : The output directory
 6. chr : chromosome number (i.e. chr3)
 7. genome : genome (i.e. mm10 or hg19)
-8. num_CPUs : The number of CPUs one would like to use. One can check how many CPUs are available by "lscpu". If num_CPUs = 1, the program will run as single processor. 
+8. num_CPUs : The number of CPUs one would like to use. One can check how many CPUs are available by "lscpu". If num_CPUs = 1, the program will run as single processor. When using a HPC with job scheduler, make sure to ask for 1 node. 
 9. bin_size : The resolution of bin size
 10. fdr_threshold : FDR threshhold; the default value is 0.1
 11. max_gap : The maximum distance gap; the default value is 101 (1MB)
