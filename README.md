@@ -13,7 +13,7 @@ SnapHiC-D was built using following Python packages.
 1. Python 3.6.8
 2. numpy 1.19.5
 3. pandas 1.1.5
-4. qnorm 0.8.1
+4. qnorm 0.8.1 (https://github.com/Maarten-vd-Sande/qnorm)
 5. scipy 1.5.4
 6. statsmodels 0.12.2
 7. futures 3.0.5
