@@ -42,7 +42,7 @@ def main():
         for result in executor.map(partial(rest_of_steps, chr_list=CHR, dir_in_B=dir_in_B, dir_in_A=dir_in_A, \
                                             ann_dir=ann_dir, out_dir=out_dir, b_ID=b_ID, gID=gID, BINSIZE=BINSIZE, fdr_t=fdr_t) , GAP):
             
-#            print("Done with GAP=", GAP, flush=True) 
+            print("Done with a GAP", flush=True) 
             
     print("Exiting program", flush=True) 
 
