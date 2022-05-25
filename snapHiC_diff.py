@@ -98,7 +98,6 @@ def rest_of_steps(GAP, chr_list, dir_in_B, dir_in_A, ann_dir, out_dir, b_ID, gID
     u_size = get_usize(GAP, ann_dir, dir_in_A, dir_in_B,b_ID,gID,BINSIZE)
     rec = np.zeros((u_size, len(ann)))
     
-    print('its going1')
     
     for ID in range(0, len(ann)):
         if(ann['group'][ID] == "A"):
@@ -128,7 +127,6 @@ def rest_of_steps(GAP, chr_list, dir_in_B, dir_in_A, ann_dir, out_dir, b_ID, gID
     u_combine = np.c_[u[['from','from.1','to','to.1']], rec]
     final = u_combine[index == 1, ]
     
-    print('its going1')
     
     rec_trim = np.delete(final, np.s_[0:4], axis=1)
 
