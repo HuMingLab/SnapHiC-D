@@ -34,3 +34,6 @@ The shellscript is included in this github page. The required inputs variables a
 10. fdr_threshold : FDR threshhold; the default value is 0.1
 11. max_gap : The maximum distance gap; the default value is 101 (1MB)
 12. min_gap : The minimum distance gap; the default value is 2 (2kb)
+
+### Contact Us
+For any questions regarding this software, contact Ming Hu (hum@ccf.org) or Lindsay Lee (leeh7@ccf.org).
