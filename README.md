@@ -21,7 +21,7 @@ SnapHiC-D was built using following Python packages.
 
 ### Running SnapHiC-D
 
-The shellscript is included in this github page. The required inputs variables are:
+The Shellscript is included in this github page. The required inputs variables are:
 
 1. SnapHiC_D_dir : The directory of SnapHiC-D
 2. group_A_dir : The directory of files for group A 
@@ -35,6 +35,11 @@ The shellscript is included in this github page. The required inputs variables a
 10. fdr_threshold : FDR threshhold; the default value is 0.1
 11. max_gap : The maximum distance gap; the default value is 101 (1MB)
 12. min_gap : The minimum distance gap; the default value is 2 (2kb)
+
+To run SnapHiC-D,
+```
+./run_snapHiC_diff.sh
+```
 
 ### Contact Us
 For any questions regarding this software, contact Ming Hu (hum@ccf.org) or Lindsay Lee (leeh7@ccf.org).
