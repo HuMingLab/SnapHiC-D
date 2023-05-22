@@ -2,7 +2,7 @@
 
 ## Identifying differential chromatin interactions from single cell Hi-C data
 
-### Last edited: 05/2022. Version: 0.1.0
+### Last edited: 05/2023. Version: 0.1.0
 
 Find the preprint [here](https://www.biorxiv.org/content/10.1101/2022.08.05.502991v1).
 
@@ -38,7 +38,7 @@ The Shellscript is included in this github page. The required inputs variables a
 
 To run SnapHiC-D,
 ```
-./run_snapHiC_diff.sh
+./run_SnapHiC_D.sh
 ```
 
 ### Contact Us
