@@ -4,6 +4,7 @@
 
 ### Last edited: 05/2022. Version: 0.1.0
 
+Find the preprint [here](https://www.biorxiv.org/content/10.1101/2022.08.05.502991v1).
 
 SnapHiC-D is an extension of SnapHiC (https://github.com/HuMingLab/SnapHiC) and requires SnapHiC's RWR step output for its input. For a faster version, use SnapHiC2, which is enabled by selecting "method="sliding_window".
 
