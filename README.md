@@ -40,7 +40,7 @@ To run SnapHiC-D,
 ```
 ./run_SnapHiC_D.sh
 ```
-We have provided input example data of 94 mouse embryonic stem cells (mESC) and 188 mouse neuron progenitor cells (NPCs) in zipped folders to test SnapHiC-D. These are the trimmed RWR results from SnapHiC around the 200Kb region of *Sox2* locus - chr3:34,601,000–34,806,000 (ref: mm10). Simply fill in "group_A/B_dir" with directories of these two datasets and print a file containing file names and group information of these two datasets using "print_file_names_groups.R" to run SnapHiC-D using the Shellscript described above.
+We have provided input example data of 94 mouse embryonic stem cells (mESC) and 188 mouse neuron progenitor cells (NPCs) in zipped folders to test SnapHiC-D. These are the trimmed RWR results from SnapHiC around the 200Kb region of *Sox2* locus - chr3:34,601,000–34,806,000 (ref: mm10). Simply fill in "group_A/B_dir" with directories of these two unzipped datasets and print a file containing file names and group information of these two datasets using "print_file_names_groups.R" to run SnapHiC-D using the Shellscript described above.
 
 ### Contact Us
 For any questions regarding this software, contact Ming Hu (hum@ccf.org) or Lindsay Lee (leeh7@ccf.org).
