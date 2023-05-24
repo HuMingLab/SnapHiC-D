@@ -26,7 +26,7 @@ The Shellscript is included in this github page. The required inputs variables a
 1. SnapHiC_D_dir : The directory of SnapHiC-D
 2. group_A_dir : The directory of files for group A 
 3. group_B_dir : The directory of files for group B
-4. file_list_dir : The directory of file containing file name and its group information (i.e. A or B) with the 2 column header of "name group". One may use print_file_group_name.R code to print this file. The example of a file list is "OM_chr3_final.txt".
+4. file_list_dir : The directory of file containing file name and its group information (i.e. A or B) with the 2 column header of "name group". One may use print_file_names_groups.R code to print this file. The example of a file list is "OM_chr3_final.txt".
 5. out_dir : The output directory
 6. chr : chromosome number (i.e. chr3)
 7. genome : genome (i.e. mm10 or hg19)
@@ -40,7 +40,7 @@ To run SnapHiC-D,
 ```
 ./run_SnapHiC_D.sh
 ```
-We have provided input example data of 94 mouse embryonic stem cells (mESC) and 188 mouse neuron progenitor cells (NPCs) in zipped folders to test SnapHiC-D. These are the trimmed RWR results from SnapHiC around the 200Kb region of *Sox2* locus - chr3:34,601,000–34,806,000 (ref: mm10). Simply fill in "group_A/B_dir" with directories of these two datasets and print a file containing file names and group information of these two datasets using "print_group_name.R" to run SnapHiC-D using the Shellscript above.
+We have provided input example data of 94 mouse embryonic stem cells (mESC) and 188 mouse neuron progenitor cells (NPCs) in zipped folders to test SnapHiC-D. These are the trimmed RWR results from SnapHiC around the 200Kb region of *Sox2* locus - chr3:34,601,000–34,806,000 (ref: mm10). Simply fill in "group_A/B_dir" with directories of these two datasets and print a file containing file names and group information of these two datasets using "print_file_names_groups.R" to run SnapHiC-D using the Shellscript described above.
 
 ### Contact Us
 For any questions regarding this software, contact Ming Hu (hum@ccf.org) or Lindsay Lee (leeh7@ccf.org).
