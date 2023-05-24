@@ -40,6 +40,7 @@ To run SnapHiC-D,
 ```
 ./run_SnapHiC_D.sh
 ```
+We have provided 94 mouse embryonic stem cells (mESC) and 188 mouse neuron progenitor cells (NPCs) in zipped folders to test SnapHiC-D. These are the trimmed RWR results from SnapHiC around the 200Kb region of *Sox2* locus chr3:34,601,000–34,806,000 (ref: mm10). 
 
 ### Contact Us
 For any questions regarding this software, contact Ming Hu (hum@ccf.org) or Lindsay Lee (leeh7@ccf.org).
