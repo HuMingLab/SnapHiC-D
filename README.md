@@ -53,6 +53,7 @@ The required inputs variables are:
 10. min_gap : The minimum distance gap; the default value is 2 (2kb)
 11. max_gap : The maximum distance gap; the default value is 101 (1MB)
 
+## Example
 We have provided input example data of 94 mouse embryonic stem cells (mESC) and 188 mouse neuron progenitor cells (NPCs) in zipped folders to test SnapHiC-D. These are the trimmed RWR results from SnapHiC around the 200Kb region of *Sox2* locus - chr3:34,601,000–34,806,000 (ref: mm10). To run SnapHiC-D, type
 
 ```
