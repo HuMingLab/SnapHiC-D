@@ -39,7 +39,7 @@ SnapHiC-D diff-loops -i group_A_dir -j group_B_dir -o out_dir -c chr -n num_CPUs
                      --mini_gap min_gap --maxi_gap max_gap
 ```
 
-The required inputs variables are:
+The **required** inputs variables are:
 
 1. group_A_dir : The directory of files for group A 
 2. group_B_dir : The directory of files for group B
