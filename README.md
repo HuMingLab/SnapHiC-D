@@ -4,7 +4,7 @@
 
 Find the preprint [here](https://www.biorxiv.org/content/10.1101/2022.08.05.502991v1).
 
-SnapHiC-D is an extension of [SnapHiC](https://github.com/HuMingLab/SnapHiC) and requires SnapHiC's RWR step output for its input. For a faster version, use SnapHiC2, which is enabled by selecting "method="sliding_window".
+SnapHiC-D is an extension of [SnapHiC](https://github.com/HuMingLab/SnapHiC) and requires SnapHiC's RWR step output for its input. For a faster version, use SnapHiC2, which is enabled by selecting method="sliding_window".
 
 ### Install SnapHiC-D
 
@@ -48,7 +48,7 @@ The required inputs variables are:
 5. num_CPUs : The number of CPUs one would like to use. One can check how many CPUs are available by "lscpu". If num_CPUs = 1, the program will run as a  single processor. When using a HPC with job scheduler, make sure to ask for 1 node. 
 6. genome_region_path: the path of *mm10_filter_regions.txt* or *hg19_filter_regions.txt*, depending on the reference genome. These files are provided in the *ext* folder.
 7. genome_transcript_path: the path of *mm10.refGene.transcript.TSS.061421.txt* or *hg19.refGene.transcript.TSS.061421.txt*, depending on the reference genome. These files are provided in the *ext* folder.
-8. bin_size : The resolution of bin size
+8. bin_size : The resolution of bin size (i.e. 10Kb)
 9. fdr_threshold : FDR threshhold; the default value is 0.1
 10. min_gap : The minimum distance gap; the default value is 2 (2kb)
 11. max_gap : The maximum distance gap; the default value is 101 (1MB)
