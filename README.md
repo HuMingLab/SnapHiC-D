@@ -67,5 +67,10 @@ A directory named *output* will be created with the following files inside:
 1. *output/combined_results_chr3.txt*: *T*-test results of bin pairs.
 2. *output/DI_FDR0.1_T2_Test_chr3.txt*: filtered results based on FDR and the *T* statistic.
 
+## R Code for Figures
+
+The R code and input data to generate all the figures (including the supplementary figures) in SnapHiC-D [paper](https://www.biorxiv.org/content/10.1101/2022.08.05.502991v1) can be found [here](https://www.dropbox.com/scl/fo/rfl088kryc3ms29l3uu4j/h?rlkey=wqam1iw02ot5ylh474e4txd68&dl=0).
+ 
+
 ### Contact Us
 For any questions regarding this software, contact Ming Hu (hum@ccf.org), Lindsay Lee (leeh7@ccf.org), or Hongyu Yu (hongyuyu@unc.edu).
